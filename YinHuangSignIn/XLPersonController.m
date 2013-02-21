@@ -107,6 +107,7 @@
     }else{
         [self presentModalViewController:addPerson animated:YES];
     }
+    
 }
 
 - (void)fetchPersons
