@@ -567,14 +567,15 @@
 		E0149EA216AF68C400D3BD52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: xie liang (5B252TW82Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xie liang (5B252TW82Z)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangxi common Property Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangxi common Property Co., Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YinHuangSignIn/YinHuangSignIn-Prefix.pch";
 				INFOPLIST_FILE = "YinHuangSignIn/YinHuangSignIn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ECE436E1-AD7B-4E2D-81D8-1C660BABB9A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ECE436E1-AD7B-4E2D-81D8-1C660BABB9A1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -582,14 +583,15 @@
 		E0149EA316AF68C400D3BD52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: xie liang (5B252TW82Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xie liang (5B252TW82Z)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangxi common Property Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangxi common Property Co., Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YinHuangSignIn/YinHuangSignIn-Prefix.pch";
 				INFOPLIST_FILE = "YinHuangSignIn/YinHuangSignIn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ECE436E1-AD7B-4E2D-81D8-1C660BABB9A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ECE436E1-AD7B-4E2D-81D8-1C660BABB9A1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
